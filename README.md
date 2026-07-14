@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Crear dos servidores Linux utilizando Docker y administrarlos mediante Ansible.
+Crear dos servidores Linux utilizando Docker y administrarlos mediante Ansible, ejecutando tareas automatizadas con playbooks.
 
 ---
 
@@ -23,6 +23,7 @@ docker ps
 ---
 
 ## Ejecutar el playbook
+Para ejecutar el playbook se utiliza el siguiente comando:
 
 ```bash
 ansible-playbook -i inventory.ini playbook.yml
